@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test : MonoBehaviour
+public class Cañon : MonoBehaviour
 {
     public GameObject Prefab_Bala;
     public Transform Torreta;
@@ -10,7 +10,7 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CrearProyectil();
+        Disparo();
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class Test : MonoBehaviour
     {
         
     }
-    void CrearProyectil()
+    void Disparo ()
     {
         Instantiate(Prefab_Bala,Torreta.position,transform.rotation);
     }

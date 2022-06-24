@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3393051252237759781}
   - component: {fileID: 2840737909103762269}
   m_Layer: 0
-  m_Name: proyectil
+  m_Name: bala
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,3 +106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f04f4ba8db7603e40a272007db7fa557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Speed: 5
+  Direccion: {x: 1, y: 0, z: 0}
+  Damage: 0
